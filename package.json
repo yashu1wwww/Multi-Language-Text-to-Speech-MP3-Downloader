@@ -1,14 +1,15 @@
 {
-  "name": "tts-mp3-downloader",
+  "name": "text-to-speech-mp3-downloader",
   "version": "1.0.0",
-  "description": "Text-to-Speech MP3 Downloader",
+  "description": "A simple text-to-speech MP3 downloader using Google TTS API.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "google-tts-api": "^2.0.1"
+    "google-tts-api": "^2.0.1",
+    "node-fetch": "^3.3.2"
   },
   "engines": {
     "node": ">=14.0.0"
