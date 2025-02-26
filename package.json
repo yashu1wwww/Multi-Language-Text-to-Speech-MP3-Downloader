@@ -1,18 +1,16 @@
 {
   "name": "tts-mp3-downloader",
   "version": "1.0.0",
-  "description": "Text-to-MP3 Speech Downloader using Google TTS API",
+  "description": "Text-to-Speech MP3 Downloader",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "vercel-build": "node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "google-tts-api": "^1.0.8",
-    "node-fetch": "^3.3.2"
+    "google-tts-api": "^2.0.1"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=14.0.0"
   }
 }
