@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
   <body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen px-4">
     
     <div class="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-sm text-center">
-      <h1 class="text-2xl font-bold mb-4">English Text-to-Speech MP3 Downloader</h1>
+      <h1 class="text-2xl font-bold mb-4">Text-to-Speech MP3 Downloader</h1>
 
       <textarea id="text" rows="4" class="w-full p-2 text-black rounded" placeholder="Enter text here..."></textarea>
 
